@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/Blazing.Json.JSONPath.Benchmarks/Blazing.Json.JSONPath.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/Blazing.Json.JSONPath.Samples/Blazing.Json.JSONPath.Samples.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="CODE_OF_CONDUCT.md" />
+    <File Path="CONTRIBUTING.md" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="docs/RFC9535_COMPLIANCE_SUMMARY.md" />
+    <File Path="docs/RFC9535_COMPLIANCE_VERIFICATION.md" />
+    <File Path="LICENSE" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Blazing.Json.JSONPath/Blazing.Json.JSONPath.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Blazing.Json.JSONPath.Tests/Blazing.Json.JSONPath.Tests.csproj" />
+  </Folder>
+</Solution>
