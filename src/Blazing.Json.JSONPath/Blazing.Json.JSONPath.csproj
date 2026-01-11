@@ -13,19 +13,19 @@
     
     <!-- Package Metadata -->
     <PackageId>Blazing.Json.JSONPath</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <Authors>Graeme Grant</Authors>
     <Company>Graeme Grant</Company>
     <Product>Blazing.Json.JSONPath</Product>
-    <Description>100% RFC 9535 compliant JSONPath implementation for .NET. High-performance JSONPath query engine with full support for all selectors, filters, functions, and recursive descent. Includes fix for RFC 9535 Section 2.3.5.1 compliance - LogicalType functions (match, search) can now be used as standalone test expressions in filters. Certified through comprehensive tests.</Description>
-    <PackageTags>json;jsonpath;rfc9535;query;blazing;parser;filter;selector;standard;compliant</PackageTags>
+    <Description>100% RFC 9535 compliant JSONPath implementation for .NET. High-performance JSONPath query engine with full support for all selectors, filters, functions, and recursive descent. Includes JsonPathHelper utility for feature detection and complexity analysis. Extended test coverage certified through 536 comprehensive tests.</Description>
+    <PackageTags>json;jsonpath;rfc9535;query;blazing;parser;filter;selector;standard;compliant;span;performance</PackageTags>
     <PackageProjectUrl>https://github.com/gragra33/Blazing.Json.JSONPath</PackageProjectUrl>
     <RepositoryUrl>https://github.com/gragra33/Blazing.Json.JSONPath</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>Copyright © 2026 Graeme Grant</Copyright>
-    <PackageReleaseNotes>v1.0.1: Fixed RFC 9535 Section 2.3.5.1 compliance - LogicalType functions (match, search) can now be used as standalone test expressions in filter selectors without requiring comparison operators (e.g., $[?match(@.email, '.*@example\.com$')]).</PackageReleaseNotes>
+    <PackageReleaseNotes>v1.1.0: Added JsonPathHelper utility with HasFeatures() and AnalyzeComplexity() methods for lightweight feature detection (not syntax validation). Includes zero-allocation ReadOnlySpan overloads. Extended test coverage - Total: 536 tests, all passing.</PackageReleaseNotes>
     
     <!-- Symbol Package Settings - CRITICAL for snupkg generation -->
     <IncludeSymbols>true</IncludeSymbols>

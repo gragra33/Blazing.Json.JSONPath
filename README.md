@@ -597,6 +597,20 @@ Also, if you find this library useful and you're feeling really generous, please
 
 ## History
 
+### V1.1.0 - 15 January, 2026
+
+**Enhanced Testing and Utilities**
+
+- **Test Coverage Expansion**:
+  - Added more comprehensive new tests for RFC 9535 compliance validation
+  - Total test count increased to 536 tests
+
+- **JsonPathHelper Utility**:
+  - Added `HasFeatures()` method for lightweight RFC 9535 feature detection (not syntax validation)
+  - Added `AnalyzeComplexity()` method to categorize queries as Simple, Moderate, or Complex
+  - Zero-allocation for high-performance scenarios
+  - Early return optimizations for common scenarios
+
 ### V1.0.1 - 11 January, 2026
 
 **RFC 9535 Compliance Fix**
